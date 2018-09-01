@@ -19,5 +19,5 @@ var finalBalance = "$" + (balance - totalCostWithTax).toFixed(2);
 console.log("Your initial balance was $" + balance + ".");
 console.log("You have bought " + numberOfDevices + " devices.");
 console.log("Their price along with equipment and no added taxes was $" + totalCost);
-console.log("Total price with added taxes is $" + totalCostWithTax.toFixed(2) + ", which leaves you with " + finalBalance + " on your account.");
+console.log("Total price with added taxes is $" + totalCostWithTax.toFixed(2) + ", which leaves you with a hefty " + finalBalance + " on your account.");
 console.log("Congratulations, you're now a proud owner of " + numberOfDevices + " phones. One might argue that you're also a compulsive buyer and a bad decision maker, but wth, you do you.")
